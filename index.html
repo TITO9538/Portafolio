@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
+    <script src="./habilidades.js" defer></script>
     <style>
       header {
         background-image: url(./img/Fondo.jpg);
@@ -66,9 +67,10 @@
             </button>
             <!-- DESPLEGABLE -->
             <button
+              id="botonMenu"
               data-collapse-toggle="navbar-sticky"
               type="button"
-              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-slate-300 focus:outline-none focus:ring-2 focus:ring-gray-400 dark:text-gray-400 dark:hover:bg-gray-500"
               aria-controls="navbar-sticky"
               aria-expanded="false">
               <span class="sr-only">Open main menu</span>
@@ -888,7 +890,7 @@
             </svg>
           </div>
           <!-- Logos -->
-          <div class="grid grid-cols-2 place-items-center w-[40%] md:order-2 md:m-5">
+          <div id="skills" class="grid grid-cols-2 place-items-center w-[40%] md:order-2 md:m-5">
             <div>
               <svg
                 class="w-[48px] h-[48px] text-gray-800 dark:text-white"
