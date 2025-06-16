@@ -27,7 +27,6 @@ const form = document.querySelector("#form");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   showSpinnerForm();
-  // Aquí podés procesar los datos del formulario
   let nameForm = form.elements["name"].value;
   let emailForm = form.elements["email"].value;
 
@@ -43,6 +42,6 @@ form.addEventListener("submit", function (event) {
   }, 1000);
   setTimeout(() => {
     formSubmitedOut();
-  }, 1000);
+  }, 3000);
 
 });
